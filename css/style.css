@@ -125,8 +125,12 @@ body {
 
 @media screen and (max-width: 490px){
     body {
-        background-position: center;
+        margin: 2rem;
         font-size: 2px;
+    }
+
+    .data-evento {
+        margin-bottom: 1rem;
     }
     
     .footer-link {
