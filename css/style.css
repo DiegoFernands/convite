@@ -1,0 +1,124 @@
+:root {
+    --fonte-texto: 'Rubik', sans-serif;
+    --nome-casal: 'Dancing Script', cursive;
+    --bg-fundo: url('/imagens/fundo.jpg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-fundo) no-repeat;
+    background-position: center;
+    background-size: 800px;
+}
+body {
+    background-color: #97d5b1;
+}
+
+.convite {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 2em;
+}
+
+.conteudo-convite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-mensagem {
+    font-family: var(--fonte-texto);
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    width: 62%;
+}
+
+.foto-casal {
+    margin-top: 3em;
+    margin-bottom: 4em;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.nome-casal {
+    font-family: var(--nome-casal);
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 1em;
+}
+
+.texto-convite {
+    font-family: var(--fonte-texto);
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1.5em;
+    width: 50%;
+}
+
+.data-evento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0 2em;
+}
+
+.data-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 1px solid black;
+}
+
+.dia {
+    font-family: var(--fonte-texto);
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0.5em ;
+}
+
+.mes, .ano, .dia-semana, .horas {
+    font-family: var(--fonte-texto);
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0.5em ;
+}
+
+.footer {
+    margin-top: 2em;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+    padding: 0.5em;
+}
+
+
+.icone {
+    width: 30px;
+    margin-bottom: 0.5em;
+}
