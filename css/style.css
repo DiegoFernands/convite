@@ -123,12 +123,25 @@ body {
     margin-bottom: 0.5em;
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 490px){
     body {
         background-position: center;
         font-size: 2px;
     }
     
+    .footer-link {
+        font-size: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 390px){
+    body {
+        background-position: center;
+        font-size: 2px;
+    }
+
     .footer-link {
         font-size: 1px;
         display: flex;
