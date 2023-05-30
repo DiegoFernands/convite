@@ -1,155 +1,90 @@
 :root {
-    --fonte-texto: 'Rubik', sans-serif;
-    --nome-casal: 'Dancing Script', cursive;
-    --bg-fundo: url('/imagens/fundo.jpg');
-}
-
-* {
-    margin: 0;
-    padding: 0;
+    --font-texto: 'Bitter', serif;
+    --font-nome-casal: 'Dancing Script', cursive;
+    --color-fundo: #fffef0;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--bg-fundo) no-repeat;
-    background-position: center;
-    background-size: 800px;
-}
-body {
-    background-color: #97d5b1;
+    border: 1vh solid #97d5b1;
 }
 
 .convite {
     display: flex;
-    justify-content: center;
-    margin: 2em 0 2em;
-}
-
-.conteudo-convite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
-.texto-mensagem {
-    font-family: var(--fonte-texto);
-    font-weight: 300;
-    font-size: 18px;
+.convite-versiculo {
+    font-family: var(--font-texto);
+    font-size: 13px;
     text-align: center;
-    width: 62%;
+    margin: 1vh;
 }
 
-.foto-casal {
-    margin-top: 3em;
-    margin-bottom: 4em;
-    width: 200px;
-    height: 200px;
+.img-casal {
+    width: 160px;
     border-radius: 50%;
+    height: 160px;
 }
 
 .nome-casal {
-    font-family: var(--nome-casal);
-    font-weight: 700;
-    font-size: 60px;
-    margin-bottom: 1em;
+    font-family: var(--font-nome-casal);
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 600;
 }
 
 .texto-convite {
-    font-family: var(--fonte-texto);
-    font-size: 18px;
+    font-family: var(--font-texto);
+    font-size: 13px;
     text-align: center;
-    margin-bottom: 1.5em;
-    width: 50%;
+    margin: 1vh;
 }
 
 .data-evento {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1em 0 2em;
-}
-
-.data-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-left: 1px solid black;
+    font-family: var(--font-texto);
+    
 }
 
 .dia {
-    font-family: var(--fonte-texto);
-    font-weight: 700;
-    font-size: 30px;
-    margin: 0.5em ;
+    padding: 1vh;
+    font-size: 25px;
 }
 
-.mes, .ano, .dia-semana, .horas {
-    font-family: var(--fonte-texto);
-    font-weight: 700;
-    font-size: 18px;
-    margin: 0.5em ;
+.mes-ano, .dia-semana{
+    border-left: 1px solid black;
+    padding: 1vh;
+}
+
+.local-evento {
+    margin: 2vh;
+    text-align: center;
+}
+
+.local-evento p {
+    margin: 0;
+    font-family: var(--font-texto);
+    font-size: 13px;
 }
 
 .footer {
-    margin-top: 2em;
-}
-
-.footer-link {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 2em;
 }
 
 .link {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 1.5vh;
     text-decoration: none;
-    font-family: var(--fonte-texto);
-    font-weight: 300;
-    font-size: 18px;
     color: black;
-    padding: 0.5em;
+    font-family: var(--font-texto);
+    font-size: 13px;
 }
-
 
 .icone {
-    width: 30px;
-    margin-bottom: 0.5em;
-}
-
-@media screen and (max-width: 490px){
-    body {
-        font-size: 2px;
-    }
-    
-    .footer-link {
-        font-size: 1px;
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 390px){
-    body {
-        background-position: center;
-        background-size: cover;
-    }
-    .conteudo-convite {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .footer-link {
-        font-size: 1px;
-        display: flex;
-        flex-direction: column;
-    }
+    width: 35px;
 }

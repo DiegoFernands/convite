@@ -1,2 +1,2 @@
 # convite
-Convite de casamento
+Convite de casamento para mobile
