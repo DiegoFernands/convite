@@ -7,6 +7,7 @@
 
 body {
     border: 1vh solid #97d5b1;
+    position: fixed;
 }
 
 .convite {
@@ -22,8 +23,8 @@ body {
 .img-eucalipto {
     width: 114px;
     position: absolute;
-    left: 27%;
-    top: 17%;
+    left: 20%;
+    top: 16%;
     margin-left: -110px;
     margin-top: -40px;
     transform: rotate(33deg);
@@ -32,8 +33,8 @@ body {
 .img-eucalipto-segundo {
     width: 114px;
     position: absolute;
-    left: 104%;
-    top: 58%;
+    left: 110%;
+    top: 51%;
     margin-left: -110px;
     margin-top: -40px;
     transform: rotate(212deg);
