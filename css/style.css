@@ -1,6 +1,6 @@
 :root {
     --font-texto: 'Belleza', sans-serif;
-    --font-nome-casal: 'Italiana', serif;
+    --font-nome-casal: 'Great Vibes', cursive;
     --color-fundo: #e6e6e6;
     
 }
@@ -42,7 +42,7 @@
     left: 104%;
     top: 45%;
     margin-left: -110px;
-    margin-top: -40px;
+    margin-top: -24px;
     transform: rotate(212deg);
 }
 
@@ -65,7 +65,7 @@
 
 .nome-casal {
     font-family: var(--font-nome-casal);
-    font-size: 35px;
+    font-size: 45px;
     font-style: italic;
     font-weight: 600;
 }
