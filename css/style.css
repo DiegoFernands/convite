@@ -1,7 +1,8 @@
 :root {
-    --font-texto: 'Bitter', serif;
-    --font-nome-casal: 'Dancing Script', cursive;
-    --color-fundo: #fffef0;
+    --font-texto: 'Belleza', sans-serif;
+    --font-nome-casal: 'Italiana', serif;
+    --color-fundo: #e6e6e6;
+    
 }
 
 body {
@@ -12,11 +13,35 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--color-fundo);
+}
+.img {
+    display: flex;
+}
+
+.img-eucalipto {
+    width: 114px;
+    position: absolute;
+    left: 27%;
+    top: 17%;
+    margin-left: -110px;
+    margin-top: -40px;
+    transform: rotate(33deg);
+}
+
+.img-eucalipto-segundo {
+    width: 114px;
+    position: absolute;
+    left: 104%;
+    top: 58%;
+    margin-left: -110px;
+    margin-top: -40px;
+    transform: rotate(212deg);
 }
 
 .convite-versiculo {
     font-family: var(--font-texto);
-    font-size: 13px;
+    font-size: 1em;
     text-align: center;
     margin: 3vh;
 }
@@ -36,7 +61,7 @@ body {
 
 .texto-convite {
     font-family: var(--font-texto);
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
     margin: 1vh;
 }
@@ -65,7 +90,7 @@ body {
 .local-evento p {
     margin: 0;
     font-family: var(--font-texto);
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .footer {
@@ -87,4 +112,10 @@ body {
 
 .icone {
     width: 35px;
+}
+
+@media screen and(max-width: 540px) {
+    .convite {
+        
+    }
 }
