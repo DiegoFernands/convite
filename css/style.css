@@ -10,7 +10,7 @@
 }
 
 .content {
-    position: fixed;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -51,11 +51,15 @@
     text-align: center;
     margin: 3vh;
 }
+.img {
+    z-index: 1;
+}
 
 .img-casal {
     width: 160px;
     border-radius: 50%;
     height: 160px;
+    z-index: 1;
 }
 
 .nome-casal {
@@ -70,27 +74,31 @@
     font-size: 16px;
     text-align: center;
     margin: 1vh;
+    z-index: 1;
 }
 
 .data-evento {
     display: flex;
     font-family: var(--font-texto);
-    
+    z-index: 1;
 }
 
 .dia {
     padding: 1vh;
     font-size: 25px;
+    z-index: 1;
 }
 
 .mes-ano, .dia-semana{
     border-left: 1px solid black;
     padding: 1vh;
+    z-index: 1;
 }
 
 .local-evento {
     margin: 2vh;
     text-align: center;
+    z-index: 1;
 }
 
 .local-evento p {
