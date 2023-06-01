@@ -42,7 +42,7 @@
     left: 104%;
     top: 45%;
     margin-left: -110px;
-    margin-top: -24px;
+    margin-top: -20px;
     transform: rotate(212deg);
 }
 
@@ -122,15 +122,9 @@
     text-decoration: none;
     color: black;
     font-family: var(--font-texto);
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .icone {
     width: 35px;
-}
-
-@media screen and(max-width: 540px) {
-    .convite {
-        
-    }
 }
