@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content-code {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 10px solid  #97d5b1;
+    background-color: var(--color-fundo);
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-folha-primeiro {
+    width: 122px;
+    position: absolute;
+    left: 108%;
+    top: -11%;
+    margin-left: -136px;
+    margin-top: -61px;
+    transform: rotate(226deg);
+}
+
+.img-folha-segundo {
+   
+}
