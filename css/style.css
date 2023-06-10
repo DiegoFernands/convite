@@ -7,17 +7,31 @@
 }
 
 body {
-    background-color: var(--color-fundo);
     margin: 0;
     padding: 0;
+    background-image: url('/imagens/sixteen-miles-out-BaDjCICkyag-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
+    position: relative;
+    overflow: hidden;
     width: 100%;
     max-width: 600px;
     margin: 20px auto;
-    border: 10px solid  #97d5b1;
     background-color: var(--color-fundo);
+    z-index: 1;
+}
+
+.imagem {
+    max-width: 190px;
+    position: absolute;
+    rotate: 26deg;
+    top: 34%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 .header {
@@ -38,6 +52,7 @@ body {
 .couple-image {
     text-align: center;
     margin-bottom: 20px;
+    z-index: 1;
 }
 
 .couple-image img {
@@ -125,9 +140,18 @@ body {
     margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 390px) {
     .container-link a {
       flex-basis: auto;
       flex-grow: 1;
     }
 }
+
+@media (max-width: 600px) {
+    .imagem {
+      width: 100px;
+      top: 250px;
+      height: auto;
+      max-width: 200px;
+    }
+  }
