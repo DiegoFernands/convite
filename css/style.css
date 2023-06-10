@@ -34,6 +34,15 @@ body {
     z-index: -1;
 }
 
+.imagem-two {
+    max-width: 164px;
+    position: absolute;
+    rotate: 211deg;
+    top: 54%;
+    left: 75%;
+    z-index: -1;
+}
+
 .header {
     padding: 20px;
     text-align: center;
@@ -154,6 +163,12 @@ body {
       height: auto;
       max-width: 200px;
     }
+
+    .imagem-two {
+        width: 163px;
+        top: 481px;
+        height: auto;
+    }
   }
 
   @media (max-width: 400px) {
@@ -161,6 +176,11 @@ body {
       width: 110px;
       top: 250px;
       height: auto;
-      max-width: 200px;
+    }
+
+    .imagem-two {
+        width: 110px;
+        top: 584px;
+        height: auto;
     }
   }
