@@ -170,6 +170,24 @@ body {
     width: 70%;
 }
 
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.back a {
+    text-decoration: none;
+    border: 1px var(--color) solid;
+    border-radius: 25px;
+    padding: 5px;
+    width: 60px;
+    text-align: center;
+    color: var(--color);
+    font-family: var(--font-texto);
+}
+
 @media (min-width: 600px) {
     .container-link a {
       flex-basis: auto;
