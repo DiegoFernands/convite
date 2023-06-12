@@ -156,7 +156,7 @@ body {
     font-size: 16px;
     color: var(--color);
     text-align: center;
-    width: 70%;
+    width: 80%;
 }
 
 .dress-description-woman, .dress-code, .dress-description-man {
@@ -167,7 +167,7 @@ body {
 
 .dress-description-woman img, 
 .dress-description-man img {
-    width: 70%;
+    width: 80%;
 }
 
 .back {
