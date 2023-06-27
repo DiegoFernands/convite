@@ -1,3 +1,3 @@
 # convite
-Um simples convite de casamento feito Em HTML e CSS.
+Um simples convite de casamento feito em HTML, CSS e JavaScript.
 
